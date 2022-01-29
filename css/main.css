@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,500&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0px;
+}
+
+.container {
+  width: 99%;
+  min-height: 100%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: rebeccapurple;
+  margin: 5px auto 0px;
+}
+
+.element {
+  display: flex;
+  background-color: rgb(26, 26, 27);
+  height: 10%;
+  width: 100%;
+  border: solid 1px rgb(121, 122, 123);
+  border-top: none;
+}
+
+.element:first-child {
+  border: solid 1px rgb(121, 122, 123);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.votes {
+  background-color: rgb(22, 22, 23);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 2.5%;
+  height: 100%;
+  font-size: 12px;
+}
+
+.votes:first-child {
+  border-top-left-radius: 10px;
+}
+.votes > h4 {
+  font-weight: 700;
+  color: white;
+}
+
+.votes > img {
+  width: 15px;
+  height: 30px;
+}
+
+.header {
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 125px;
+  height: 70px;
+  align-self: center;
+  border-radius: 5px;
+}
+
+.elementcontainer {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height:auto;
+  margin: auto 0px;
+}
+
+.top {
+  height: 33%;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 17px;
+  margin-right: 20px;
+}
+
+.flair {
+  background-color: black;
+  padding: 5px 5px;
+  border-radius: 25px;
+  font-size: 12px;
+}
+
+.highlight {
+  background-color: purple;
+}
+
+.story-time {
+  background-color: red;
+}
+
+.question {
+  background-color: gray;
+}
+
+
+.middle {
+  height: 33%;
+  display: flex;
+  align-items: center;
+}
+
+.subreddit {
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.author {
+  font-weight: 400;
+  font-size: 12px;
+  color: grey;
+  margin-right: 20px;
+}
+.bottom {
+  display: flex;
+  height: 33%;
+}
+
+.bottom > h4 {
+  margin-right: 20px;
+  font-weight: 400;
+  color: grey;
+}
+
+.bottom > img {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+
+footer {
+  background-color: #aaa;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 1rem 3rem 3rem 3rem;
+  margin-top: 0;
+}
